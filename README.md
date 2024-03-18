@@ -1,6 +1,8 @@
-MOH-LMIS: System Functionality Description
+PMS-LMIS (Pharmaceuticals and Medical Supplies Logistics Management Information System) 
 
-LMIS is a distributed system developed using a Microsoft SQL Server backend, Visual Basic .NET frontend, and Crystal Report for reporting. This system follows a client-server architecture, with each unit independently running a copy of LMIS and pushing the data to the national repository at MOH-HQ through an ADSL-VPN connection. In the event that a site is not connected via ADSL-VPN, the data is collected by taking backups of the respective databases. All the backups from the sites are then gathered at the LMIS unit located at the MOH headquarters.
+System Functionality Description
+
+LMIS is a distributed system developed using a Microsoft SQL Server backend, Visual Basic .NET frontend, and Crystal Report for reporting. This system adopts a client-server architecture, where each unit independently operates a copy of LMIS. These units then transmit data to the national repository at MOH-HQ via an ADSL-VPN connection. In cases where a site lacks ADSL-VPN connectivity, data is collected by backing up the respective databases. Subsequently, all backups from the sites are consolidated at the LMIS unit situated at the MOH headquarters.
 
 Facility Level LMIS Systems
 
